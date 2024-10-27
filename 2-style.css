@@ -1,0 +1,26 @@
+#results {
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    text-align: center;
+}
+  
+.results-container {
+    display: flex; /* Use Flexbox to arrange results */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.result-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1; /* Adjust based on desired layout */
+    max-width: 300px; /* Limit width for better layout */
+}
+  
+.result-item h3 {
+    margin-top: 0; /* Remove default margin for consistency */
+}
+  

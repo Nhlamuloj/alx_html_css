@@ -1,0 +1,16 @@
+
+.footer{
+    padding: 20px 19%;
+    border-top: 1px solid rgb(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: gray;
+}
+
+.copy-write p{
+    font-size: 14px;
+    font-weight: 400;
+    background-color: gray;
+} 

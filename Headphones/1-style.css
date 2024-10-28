@@ -1,0 +1,56 @@
+.what_we_do{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+ h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: black;
+}
+.para{
+    margin: auto;
+    width: 32%;
+    padding: 10px;
+}
+
+.what_we{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.do img{
+    height: auto;
+    width: 10%;
+    border-radius: 12px;
+    margin-bottom: 1.4rem;
+}
+
+.do{
+    background-color: aliceblue;
+    border-radius: 12px;
+    padding: 15px 20px;
+    transition: all .7s;
+}
+
+.main_what_we{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.do h4{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.do p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}

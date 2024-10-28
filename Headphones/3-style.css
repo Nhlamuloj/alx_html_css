@@ -1,0 +1,36 @@
+.container3{
+    background-image: url("img/headphones_hero_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.what_we_do{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+ h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.para{
+    margin: auto;
+    width: 32%;
+    padding: 10px;
+}
+
+.per{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    transition: all .7s
+}
+
+body{
+    background: white;
+    color: black;
+}
